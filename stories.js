@@ -127,7 +127,6 @@ function montarStory() {
         let videoElement = document.createElement("video");
         videoElement.setAttribute("src", obj.video[count].media);
         videoElement.id = "video" + index;
-        videoElement.controls = true;
         videoElement.setAttribute("class", "video-profile")
 
         content.appendChild(videoElement);
